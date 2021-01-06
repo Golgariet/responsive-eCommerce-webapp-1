@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch:sass": "node-sass assets/SCSS/main.scss assets/css/styles.css -w",
+    "watch:sass": "node-sass SCSS/main.scss css/styles.css -w",
     "compile:sass": "node-sass SCSS/main.scss css/styles.css",
     "concat:css": "concat -o css/styles.concat.css css/styles.comp.css"
   },
