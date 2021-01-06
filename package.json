@@ -1,0 +1,24 @@
+{
+  "name": "ecommerce-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass SCSS/main.scss css/styles.css -w",
+    "compile:sass": "node-sass SCSS/main.scss css/styles.css",
+    "concat:css": "concat -o css/styles.concat.css css/styles.comp.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Golgariet/responsive-eCommerce-webapp-1.git"
+  },
+  "author": "Anton Bibergal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Golgariet/responsive-eCommerce-webapp-1/issues"
+  },
+  "homepage": "https://github.com/Golgariet/responsive-eCommerce-webapp-1#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
