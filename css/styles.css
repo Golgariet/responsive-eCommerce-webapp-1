@@ -90,3 +90,44 @@ img {
   left: 0;
   z-index: var(--z-fix);
   background-color: var(--gray-color); }
+
+.nav {
+  height: var(--header-height);
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+@media screen and (max-width: 768px) {
+  .nav__menu {
+    position: fixed;
+    top: var(--header-height);
+    right: -100%;
+    width: 80%;
+    height: 100%;
+    padding: 2rem;
+    background-color: var(--sub-white-color);
+    transition: 0.5; } }
+
+.nav__item {
+  margin-bottom: var(--m4); }
+
+nav__link {
+  color: var(--dark-color);
+  font-weight: var(--font-semi); }
+
+.nav__link:hover {
+  color: var(--dirst-color); }
+
+.nav__logo {
+  font-weight: var(--font-bold); }
+
+.nav__cart {
+  font-size: 1.5rem;
+  margin-right: var(--m2); }
+
+.nav__toggle {
+  font-size: 1.5rem;
+  cursor: pointer; }
+
+.show {
+  right: 0; }
