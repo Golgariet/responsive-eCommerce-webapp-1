@@ -122,3 +122,12 @@ img {
   margin-left: var(--m3);
   margin-right: var(--m3);
 }
+
+.l-header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: var(--z-fix);
+  background-color: var(--gray-color);
+}

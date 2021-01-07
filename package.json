@@ -19,7 +19,6 @@
   },
   "homepage": "https://github.com/Golgariet/responsive-eCommerce-webapp-1#readme",
   "dependencies": {
-    "boxicons": "^2.0.7",
     "node-sass": "^5.0.0"
   }
 }
