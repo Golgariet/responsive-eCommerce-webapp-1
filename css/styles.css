@@ -16,6 +16,13 @@
   --normal-font-size: 0.938rem;
   --small-font-size: 0.75rem; }
 
+@media screen and (min-width: 768px) {
+  --big-font-size: 6rem;
+  --h1-font-size: 2.25rem;
+  --h2-font-size: 1.5rem;
+  --normal-font-size: 1rem;
+  --small-font-size: 0.813rem; }
+
 :root {
   --m1: 0.5rem;
   --m2: 1rem;
@@ -119,7 +126,8 @@ nav__link {
   color: var(--dirst-color); }
 
 .nav__logo {
-  font-weight: var(--font-bold); }
+  font-weight: var(--font-bold);
+  font-family: var(--font-primary); }
 
 .nav__cart {
   font-size: 1.5rem;
