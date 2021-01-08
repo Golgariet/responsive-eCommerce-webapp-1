@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900");
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
 
 :root {
   --header-height: 3rem;
@@ -13,7 +13,7 @@
   --gray-color: #f0f1f3;
 
   //   --body-font: "Lato", sans-serif;
-  --font-primary: "Lato", sans-serif;
+  --font-primary: 'Lato', sans-serif;
   --big-font-size: 3rem;
   --h1-font-size: 1.5rem;
   --h2-font-size: 1.25rem;
@@ -60,7 +60,7 @@ html {
 
 body {
   margin: var(--header-height) 0 0 0;
-  font-family: var(--font-primary) 0 0 0;
+  font-family: var(--font-primary);
   font-size: var(--normal-font-size);
   color: var(--dark-color);
   line-height: 1.6;
@@ -143,7 +143,7 @@ img {
     height: 100%;
     padding: 2rem;
     background-color: var(--sub-white-color);
-    transition: 0.5;
+    transition: 0.5s;
   }
 }
 
@@ -151,18 +151,17 @@ img {
   margin-bottom: var(--m4);
 }
 
-nav__link {
+.nav__link {
   color: var(--dark-color);
   font-weight: var(--font-semi);
 }
 
 .nav__link:hover {
-  color: var(--dirst-color);
+  color: var(--primary-color);
 }
 
 .nav__logo {
   font-weight: var(--font-bold);
-  font-family: var(--font-primary);
 }
 
 .nav__cart {
