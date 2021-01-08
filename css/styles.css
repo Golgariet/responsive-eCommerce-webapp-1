@@ -138,3 +138,18 @@ img {
 
 .show {
   right: 0; }
+
+.active {
+  color: var(--primary-color); }
+
+.home {
+  background-color: var(--gray-color); }
+
+.home__container {
+  height: calc(100vh - var(--header-height)); }
+
+.home__data {
+  padding-top: 6rem; }
+
+.home_title {
+  align-self: center; }
