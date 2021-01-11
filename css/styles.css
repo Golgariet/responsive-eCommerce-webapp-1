@@ -329,3 +329,38 @@ img {
 
 .sponsors__logo img:hover {
   filter: none; }
+
+.footer {
+  background-color: var(--dark-color);
+  color: var(--sub-white-color); }
+
+.footer__container {
+  row-gap: 1.5rem;
+  margin-bottom: var(--m4); }
+
+.footer__title {
+  margin-bottom: var(--m1); }
+
+.footer__deal {
+  margin-bottom: var(--m2); }
+
+.footer__store {
+  width: 100px; }
+
+.footer__link,
+.footer__social {
+  color: var(--sub-dark-light); }
+
+.footer__link:hover {
+  text-decoration: underline; }
+
+.footer__social {
+  font-size: 1.3rem;
+  margin-right: var(--m1); }
+
+.footer__copy {
+  border-top: 1px solid var(--sub-dark-light);
+  padding-top: 3rem;
+  text-align: center;
+  color: var(--sub-dark-light);
+  font-size: var(--small-font-size); }
