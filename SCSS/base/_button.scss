@@ -1,0 +1,13 @@
+.button {
+  display: inline-block;
+  background-color: var(--primary-color);
+  color: var(--sub-white-color);
+  padding: 1rem;
+  font-size: var(--small-font-size);
+  font-weight: var(--font-semi);
+  transition: 0.3s;
+}
+
+.button:hover {
+  background-color: var(--sub-primary-color);
+}
