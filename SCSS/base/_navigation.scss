@@ -1,70 +1,78 @@
-// .nav {
-//   height: var(--header-height);
-//   display: flex;
-//   justify-content: space-between;
-//   align-items: center;
-// }
+.nav {
+  height: var(--header-height);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
-// @media screen and (max-width: 768px) {
-//   .nav__menu {
-//     position: fixed;
-//     top: var(--header-height);
-//     right: -100%;
-//     width: 80%;
-//     height: 100%;
-//     padding: 2rem;
-//     background-color: var(--sub-white-color);
-//     transition: 0.5s;
-//   }
-// }
+  &__item {
+    margin-bottom: var(--m4);
+  }
 
-// @media screen and (min-width: 768px) {
-//   .nav {
-//     height: calc(var(--header-height) + 1rem);
-//     justify-content: initial;
-//   }
+  &__link {
+    color: var(--dark-color);
+    font-weight: var(--font-semi);
+  }
 
-//   .nav__menu {
-//     margin-left: auto;
-//   }
+  &__link:hover {
+    color: var(--primary-color);
+  }
 
-//   .nav__list {
-//     display: flex;
-//   }
+  &__logo {
+    font-weight: var(--font-bold);
+  }
 
-//   .nav__item {
-//     margin-left: var(--m4);
-//     margin-bottom: 0;
-//   }
+  &__cart {
+    font-size: 1.5rem;
+    margin-right: var(--m2);
+  }
 
-//   .nav__toggle {
-//     display: none !important;
-//   }
-// }
+  &__toggle {
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
 
-// .nav__item {
-//   margin-bottom: var(--m4);
-// }
+  @media screen and (max-width: 768px) {
+    &__menu {
+      position: fixed;
+      top: var(--header-height);
+      right: -100%;
+      width: 80%;
+      height: 100%;
+      padding: 2rem;
+      background-color: var(--sub-white-color);
+      transition: 0.5s;
+    }
+  }
 
-// .nav__link {
-//   color: var(--dark-color);
-//   font-weight: var(--font-semi);
-// }
+  @media screen and (min-width: 768px) {
+    .nav {
+      height: calc(var(--header-height) + 1rem);
+      justify-content: initial;
 
-// .nav__link:hover {
-//   color: var(--primary-color);
-// }
+      &__menu {
+        margin-left: auto;
+      }
 
-// .nav__logo {
-//   font-weight: var(--font-bold);
-// }
+      &__list {
+        display: flex;
+      }
 
-// .nav__cart {
-//   font-size: 1.5rem;
-//   margin-right: var(--m2);
-// }
+      &__item {
+        margin-left: var(--m4);
+        margin-bottom: 0;
+      }
 
-// .nav__toggle {
-//   font-size: 1.5rem;
-//   cursor: pointer;
-// }
+      &__toggle {
+        display: none !important;
+      }
+    }
+  }
+}
+
+.show {
+  right: 0;
+}
+
+.active {
+  color: var(--primary-color);
+}
