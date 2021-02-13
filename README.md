@@ -1,6 +1,8 @@
 # Responsive eCommerce SPA (Mobile first)
 
-eCommerce SPA - Fully implemented Single Page responsive application (SPA) with awesome design. Mobile first, with media querries. Using SCSS for long term use as a template.
+eCommerce SPA - Fully implemented Single Page responsive application (SPA) with awesome design. Mobile first, with media queries. Using SCSS for long term use as a template.
+
+Link: [https://golgariet.github.io/responsive-eCommerce-webapp-1/](https://golgariet.github.io/responsive-eCommerce-webapp-1/)
 
 ## Usage
 
@@ -17,6 +19,7 @@ You will also see any lint errors in the console.
 
 - Fully Responsive
 - Mouse and Touch sensitive
+- Menu written in JS
 
 ## Contributing
 
