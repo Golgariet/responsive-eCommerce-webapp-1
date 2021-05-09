@@ -301,7 +301,7 @@ img {
     grid-template-columns: repeat(4, 1fr); } }
 
 .offer__bg {
-  background: url("/images/products.png") no-repeat center/cover;
+  background: url("../images/products.png") no-repeat center/cover;
   text-align: center; }
 
 .offer__data {
